@@ -1,40 +1,5 @@
 # QualityControl - Premium Barber Services Website
 
-A modern, mafia-themed barber shop website for **QualityControl** by Zackry R.P.
-
-## Features
-
-- 🎨 **Mafia Theme** - Dark, luxurious design with gold accents
-- ✨ **Amazing Animations** - Smooth transitions, parallax effects, custom cursor
-- 📱 **Fully Responsive** - Works on all devices
-- 🖼️ **Gallery with Filters** - Showcase before/after cuts by style
-- 💬 **Testimonials Slider** - Client reviews with auto-rotation
-- 📞 **WhatsApp Integration** - Direct booking via WhatsApp
-- 🏠 **House Calls Section** - Highlight mobile barber services
-- ⚡ **GitHub Pages Ready** - Static site, no build process needed
-
-## Live Demo
-
-Host on GitHub Pages:
-1. Push this repo to GitHub
-2. Go to **Settings > Pages**
-3. Select branch: `main`, folder: `/ (root)`
-4. Save
-
-## Customization Guide
-
-### 1. Update WhatsApp Number
-
-Replace `1234567890` with Zackry's actual WhatsApp number (with country code, no + or spaces):
-
-**Files to edit:**
-- `index.html` (search for `wa.me/1234567890`)
-- `js/main.js` (search for `1234567890`)
-
-Example: If number is +1 (555) 123-4567, use `15551234567`
-
-### 2. Add Your Images
-
 #### Gallery Images (Before/After Cuts)
 Place images in `images/gallery/` and update the gallery items in `index.html`:
 
@@ -55,7 +20,7 @@ Place images in `images/gallery/` and update the gallery items in `index.html`:
 </div>
 ```
 
-**Recommended image naming:**
+**image naming:**
 - `low-fade-before.jpg`
 - `low-fade-after.jpg`
 - `skin-fade-before.jpg`
@@ -67,11 +32,11 @@ Replace the placeholder in `images/about/`:
 
 ```html
 <div class="placeholder-image">
-    <img src="images/about/zackry.jpg" alt="Zackry R.P">
+    <img src="images/about/zackry.jpg" alt="Zaykie">
 </div>
 ```
 
-### 3. Update Contact Information
+###  Update Contact Information
 
 In `index.html`, update:
 - Phone number
@@ -79,14 +44,14 @@ In `index.html`, update:
 - Business hours
 - Social media links (Instagram, Facebook, TikTok)
 
-### 4. Update Services & Pricing
+###  Update Services & Pricing
 
 Edit the services section in `index.html` to adjust:
 - Service names
 - Descriptions
 - Prices
 
-### 5. Add More Testimonials
+###  Add More Testimonials
 
 Copy a `testimonial-card` block and update the content.
 
@@ -122,8 +87,8 @@ qualitycontrol/
 
 ## License
 
-All rights reserved - QualityControl © 2026
+All rights reserved - QualityControl © 2025
 
 ## Contact
 
-For questions or support, contact Zackry R.P via WhatsApp.
+For questions or support, contact Zaykie via WhatsApp.
